@@ -1,0 +1,101 @@
+#details {
+  margin-bottom: 45px;
+}
+#details .container #exzoom {
+  width: 400px;
+  float: left;
+  margin: 20px;
+}
+#details .container .aside {
+  float: right;
+  width: 198px;
+  height: 480px;
+  line-height: 20px;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  margin: 40px;
+}
+#details .container .details {
+  margin: 30px;
+  line-height: 30px;
+  width: 300px;
+}
+#details .container .details .list h1 {
+  font-size: 30px;
+}
+#details .container .details .list h3 {
+  color: pink;
+}
+#details .container .details .list span {
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}
+#details .container .details .list del {
+  font-size: 14px;
+}
+#details .container .details .btn {
+  margin-top: 20px;
+}
+#details .container .details .btn input {
+  width: 140px;
+  height: 55px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #ec1611;
+}
+#details .container .details .btn .s2 input {
+  background: #fff;
+  color: #ec1611;
+}
+#details .container .details .btn .cart input {
+  background: #ec1611;
+}
+
+#suc {
+  position: absolute;
+  width: 480px;
+  height: 300px;
+  border: 2px solid red;
+  display: none;
+  z-index: 99999;
+  background: #fff;
+}
+#suc .btn-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 2px 5px;
+  color: #666;
+}
+#suc .btn-close:hover {
+  background-color: #f00;
+  color: #fff;
+}
+#suc .tips {
+  background: red;
+  height: 30px;
+  color: #fff;
+  padding: 5px 5px 0 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+#suc .toBuycar {
+  padding: 25px 0;
+  text-align: center;
+}
+#suc .toBuycar .suctxt {
+  color: #666;
+}
+#suc .toBuycar .btn_red {
+  background: #dc0000;
+  border: 1px solid #dc0000;
+}
+#suc .toBuycar .inteclose {
+  color: #666;
+  padding: 0 15px;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=details.css.map */

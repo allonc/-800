@@ -1,0 +1,61 @@
+.red_border{
+	position: relative;
+    font-size: 0;
+    .border{
+    	border-bottom: 2px solid #ec1611;
+	    width: 100%;
+	    position: absolute;
+	    left: 0;
+	    top: 120px;
+    }
+}
+.carHead{
+	.container{
+		ul{
+			li{
+				clear: both;
+				width: 1210px;
+				p{
+					float: left;
+					margin: 10px;
+				}
+			}
+		}
+		.item{
+			ul{
+				li{
+					clear: both;
+					width: 1210px;float:left;
+					p{
+						float: left;
+						margin: 10px;padding-right:70px;
+						span{
+							display: inline-block;
+							width: 20px;
+							height: 20px;
+							background: #d8d8d8;
+							cursor: pointer;
+							text-align: center;
+							line-height: 20px;
+							}
+						input{
+							width:50px;
+							}
+						img{
+							width:80px;height:80px;
+							}
+					}		
+				}
+			}
+		}
+		#del{
+			clear: both;
+			margin-left: 40px;
+			p{
+				float: left;
+				margin: 10px;
+				padding-right:100px;
+			}
+		}
+	}
+}

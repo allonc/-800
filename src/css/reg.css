@@ -1,0 +1,58 @@
+header .container .area {
+  padding: 20px 0 10px;
+  width: 980px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+header .container .area .logo {
+  display: inline-block;
+  width: 232px;
+  height: 57px;
+  float: left;
+}
+header .container .area span {
+  float: right;
+  margin: 35px 0 0;
+  font-size: 12px;
+}
+header .container .area span a {
+  color: #428bca;
+}
+
+.reg .container form {
+  margin: 50px 0 50px 150px;
+  padding: 0;
+}
+.reg .container form .form-control {
+  width: 30%;
+}
+
+.login .container form {
+  margin: 50px 0 50px 100px;
+  padding: 0;
+}
+.login .container form .form-control {
+  width: 30%;
+}
+
+#footer {
+  color: #999;
+  line-height: 22px;
+  padding: 30px 0;
+}
+#footer div {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+#footer .container .area {
+  margin: 0 auto;
+  width: 980px;
+}
+#footer .container .area img {
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
+
+/*# sourceMappingURL=reg.css.map */

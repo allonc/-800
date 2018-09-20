@@ -1,0 +1,103 @@
+.full {
+  height: 45px;
+  background: #ccc;
+  position: relative;
+}
+.full .container .dis-type {
+  float: left;
+  padding: 5px 10px;
+  border: 1px solid #ec1611;
+  line-height: 15px;
+  margin-top: 7px;
+}
+.full .container .dis-content {
+  float: left;
+  margin-left: 15px;
+  line-height: 45px;
+}
+.full .container .col {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+}
+
+.data .container .sort span {
+  display: block;
+  float: left;
+  width: 60px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  cursor: pointer;
+}
+.data .container .group ul li {
+  float: left;
+  height: 20px;
+  margin: 6px 25px 2px;
+}
+.data .container .group ul li span {
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+.data .container .group ul .divide span {
+  margin-top: 2px;
+  height: 16px;
+  display: inline-block;
+  border-left: 1px solid #666;
+}
+
+.goods .container .title {
+  height: 35px;
+  padding-top: 8px;
+  background: #ccc;
+}
+.goods .container .title h6 {
+  color: red;
+  font-weight: bold;
+  padding-left: 40px;
+}
+.goods .container .goodslist ul li {
+  float: left;
+  margin: 0 4px 30px 4px;
+  cursor: pointer;
+}
+.goods .container .goodslist ul li img {
+  width: 292px;
+  height: 300px;
+}
+.goods .container .goodslist ul li h3 {
+  font-size: 16px;
+  text-align: center;
+  color: red;
+  line-height: 40px;
+}
+.goods .container .goodslist ul li p {
+  font-size: 14px;
+  text-align: right;
+  color: #666;
+}
+.goods .container .goodslist ul li p span {
+  color: #f00;
+}
+
+#page {
+  width: 200px;
+  margin: 0 auto;
+}
+#page span {
+  display: inline-block;
+  margin: 5px;
+  width: 40px;
+  line-height: 1.8;
+  text-align: center;
+  background-color: #dfdfdf;
+  color: #666;
+}
+
+.active {
+  background: red !important;
+  color: #fff !important;
+}
+
+/*# sourceMappingURL=list.css.map */

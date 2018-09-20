@@ -1,0 +1,85 @@
+#details{
+	margin-bottom: 45px;
+	.container{
+		#exzoom {
+			width: 400px;
+			float:left;
+			margin: 20px;
+		}
+		.aside{
+			float: right;
+		    width: 198px;
+		    height: 480px;
+		    line-height: 20px;
+		    background: #fff;
+		    border: 1px solid #e5e5e5;
+		    margin:40px;
+		}
+		.details{
+			margin:30px;
+			line-height:30px;
+			width:300px;
+			.list{
+				h1{
+					font-size:30px;
+				}
+				h3{
+					color:pink;
+				}
+				span{
+					color:red;font-weight:bold;
+					font-size:30px;
+				}
+				del{
+					font-size:14px;
+				}
+			
+			}
+			.btn{
+				margin-top:20px;
+				input{
+				    width: 140px;
+				    height: 55px;
+				    color: #fff;
+				    text-align: center;
+				    font-size:14px;
+				    border: 1px solid #ec1611;
+				}
+				.s2 input {
+			    background: #fff;
+			    color: #ec1611;
+			    }
+			    .cart input {
+   					 background: #ec1611;
+   					 }
+			}
+		}
+	}
+}
+#suc{
+	position:absolute;width:480px;height:300px;border:2px solid red;display:none; z-index: 99999;background:#fff;
+	.btn-close{
+			position: absolute;top:5px;right:5px;padding:2px 5px;color:#666;&:hover{
+				background-color: #f00;color:#fff;
+			}
+		}
+		.tips{
+			background:red;height:30px;color:#fff;padding:5px 5px 0 10px;cursor:pointer;font-size:14px;
+		}
+		.toBuycar{
+			padding: 25px 0;
+    		text-align: center;
+    		.suctxt{
+    			color: #666;
+    		}
+    		.btn_red{
+    			    background: #dc0000;
+    				border: 1px solid #dc0000;
+    		}
+    		.inteclose {
+				    color: #666;
+				    padding: 0 15px;
+				    display: inline-block;
+				}
+		}
+}

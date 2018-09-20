@@ -1,0 +1,57 @@
+.red_border {
+  position: relative;
+  font-size: 0;
+}
+.red_border .border {
+  border-bottom: 2px solid #ec1611;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 120px;
+}
+
+.carHead .container ul li {
+  clear: both;
+  width: 1210px;
+}
+.carHead .container ul li p {
+  float: left;
+  margin: 10px;
+}
+.carHead .container .item ul li {
+  clear: both;
+  width: 1210px;
+  float: left;
+}
+.carHead .container .item ul li p {
+  float: left;
+  margin: 10px;
+  padding-right: 70px;
+}
+.carHead .container .item ul li p span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #d8d8d8;
+  cursor: pointer;
+  text-align: center;
+  line-height: 20px;
+}
+.carHead .container .item ul li p input {
+  width: 50px;
+}
+.carHead .container .item ul li p img {
+  width: 80px;
+  height: 80px;
+}
+.carHead .container #del {
+  clear: both;
+  margin-left: 40px;
+}
+.carHead .container #del p {
+  float: left;
+  margin: 10px;
+  padding-right: 100px;
+}
+
+/*# sourceMappingURL=buycar.css.map */
